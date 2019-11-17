@@ -45,7 +45,7 @@ sudo mount -a
 if [ -d "$VIRB_DIR" ]; then
 	for virbpath in "$VIRB_DIR"; do
 		cd $AUTOIMPORT_DIR
-    	$AUTOIMPORT_COMMAND --virb_path virbpath
+    	$AUTOIMPORT_COMMAND --virb_path "$virbpath"
 	done
 fi
 
