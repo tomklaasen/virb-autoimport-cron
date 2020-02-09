@@ -43,7 +43,7 @@ fi
 sudo mount -a
 
 if [ -d "$VIRB_DIR" ]; then
-	for virbpath in $VIRB_DIR/virb-export-*; do
+	for virbpath in $VIRB_DIR/virb-expor*; do
 		cd $AUTOIMPORT_DIR
     	$AUTOIMPORT_COMMAND --virb_path "$virbpath" --loglevel ERROR
 	done
