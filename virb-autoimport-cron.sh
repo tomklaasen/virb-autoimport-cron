@@ -3,7 +3,8 @@
 # virb-autoimport-cron.sh
 
 PIDFILE=/home/pi/virb-autoimport-cron.pid
-VIRB_DIR="/mnt/backups/virb"
+# VIRB_DIR="/mnt/backups/virb" # on virbpi
+VIRB_DIR="/media/pi/76700c60-5762-4953-b768-9c155925b5d3/virb" #on backuppi
 AUTOIMPORT_DIR="/home/pi/virb-autoimport/"
 AUTOIMPORT_COMMAND="ruby main.rb"
 
